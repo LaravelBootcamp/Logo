@@ -2,7 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "scripts": {
-    "build": "node canary.js && tsc",
+    "build": "node api.js && node canary.js && tsc",
     "prepare": "node canary.js"
   }
 }
